@@ -1,22 +1,11 @@
-.color-cube {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  border: 1px solid black;
+//CSS
+button{
+  text-align: center;
+  background-color: gray;
+  color: black;
 }
-
-.red {
-  background-color: red;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.green {
-  background-color: green;
-}
-
-.blue {
-  background-color: blue;
+//*div {
+    width:200px;
+    height:200px;
+    background:red;
 }
