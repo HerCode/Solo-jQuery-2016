@@ -2,27 +2,43 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="styles.css" media="screen"/>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
 
     <title>jQuery Code Challenge</title>
 </head>
 
 <body>
 
+<main>
 
-        <input type="button" id="get-color" value="Red" class="button"></button>
-        <input type="button" id="get-color" value="Yellow" class="button"></button>
-        <input type="button" id="get-color" value="Blue" class="button"></button>
-        <input type="button" id="get-color" value="Green" class="button"></button>
+<td>
 
-<div class="box1"></div>
-<div class="box2"></div>
-<div class="box3"></div>
-<div class="box4"></div>
+    <tr><p>Total Red: <span>0</span></p>
+    <p>Total Yellow: <span>0</span></p>
+    <p>Total Blue: <span>0</span></p>
+    <p>Total Green: <span>0</span></p></tr>
 
-        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-        <script src="app.js" type="text/javascript"></script>
+</td>
+
+<div class="color-btns">
+        <input type="button" id="get-color" value="Red" class="button"/>
+        <input type="button" id="get-color" value="Yellow" class="button"/>
+        <input type="button" id="get-color" value="Blue" class="button"/>
+        <input type="button" id="get-color" value="Green" class="button"/>
+</div>
+
+<div class="color-cubes">
+    <div class="foo red"></div>
+    <div class="foo yellow"></div>
+    <div class="foo blue"></div>
+    <div class="foo green"></div>
+</div>
+<!--Scripts-->
+<script src="https://code.jquery.com/jquery-3.0.0.js"/>
+<script src="app.js"s/>
+</main>
+
 </body>
 
 </html>
